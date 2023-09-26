@@ -65,7 +65,7 @@ boost();
      document.getElementById(`score--${activePlayer}`).textContent=scores[activePlayer];
 //if score>=100..
 
-if(scores[activePlayer]>=20){
+if(scores[activePlayer]>=50){
   playing = false;
   dice.classList.add("hidden");
   document.querySelector(`.player--${activePlayer}`).classList.add("player--winner");
